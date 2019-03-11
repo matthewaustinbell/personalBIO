@@ -1,34 +1,47 @@
-body{ background-color: burlywood
+body{ background-color: whitesmoke;
+    text-align: center;
 }
-
-.container {
-    justify-content: space-between;
-    
+/* id = # class= '.' */
+#projectsPage{
+    justify-content:space-around;
+    border: solid 1px #b3b3b3;
     display: flex;
     flex-wrap: wrap;
 
 }
 #bioPage { 
-    border: solid 1px blue;
-    width: 30%;
+    box-shadow: 3px 4px;
+    border: solid 5px #b3b3b3;
+    width: 100%;
     box-shadow: 5px 10px; 
 
 }
 
-technologiesPage {
-    border: solid 1px black
-    width: 30%
-}
-
-h2 { text-align: center
-
-}
-
-img { text-align:
+#technologiesPage { 
+    box-shadow: 3px 4px;
+    border: solid 5px #b3b3b3;
+    width: 30%;
+    box-shadow: 5px 10px; 
+    background-break: bounding-box;
 
 }
+#projectsPage{ 
+    box-shadow: 3px 4px;
+    border: solid 5px #b3b3b3;
+    width: 100%;
+    box-shadow: 5px 10px; 
 
-.title{
+}
+
+h3 { 
+    background-color: slategray
+    border: solid 5px #b3b3b3;
+    width: 100%;
     
+
 }
 
+.fullPage { background-color: blueviolet;
+    text-align: center;
+
+}
