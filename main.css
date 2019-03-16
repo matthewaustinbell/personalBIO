@@ -3,45 +3,49 @@ body{ background-color: whitesmoke;
 }
 /* id = # class= '.' */
 #projectsPage{
-    justify-content:space-around;
-    border: solid 1px #b3b3b3;
-    display: flex;
-    flex-wrap: wrap;
+  justify-content:space-evenly;
+  border: solid 1px #b3b3b3;
+  display: flex;
+  flex-wrap: wrap;
+.projectsPage {
+  
 
 }
+}
 #bioPage { 
-    box-shadow: 3px 4px;
-    border: solid 5px #b3b3b3;
-    width: 100%;
-    box-shadow: 5px 10px; 
+  border: solid 5px #b3b3b3;
+  width: 100%
+  
 
 }
 
 #technologiesPage { 
-    box-shadow: 3px 4px;
-    border: solid 5px #b3b3b3;
-    width: 30%;
-    box-shadow: 5px 10px; 
-    background-break: bounding-box;
+  text-align: center;
+  box-shadow: 30px 40px;
+  border: solid 5px #b3b3b3;
+  text-align: center;
+  color: white;
 
 }
 #projectsPage{ 
-    box-shadow: 3px 4px;
-    border: solid 5px #b3b3b3;
-    width: 100%;
-    box-shadow: 5px 10px; 
+  box-shadow: 3px 4px;
+  border: solid 5px #b3b3b3;
+  width: 100%;
+  box-shadow: 5px 10px; 
+  
 
 }
 
 h3 { 
-    background-color: slategray
-    border: solid 5px #b3b3b3;
-    width: 100%;
-    
+  background-color: slategray
+  border: solid 5px #b3b3b3;
+  width: 100%;
+
+  
 
 }
 
-.fullPage { background-color: blueviolet;
-    text-align: center;
+.fullPage { background-color: darkgray;
+  text-align: center;
 
 }
