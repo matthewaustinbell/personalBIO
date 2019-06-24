@@ -23,7 +23,7 @@ const createProjectCard = () => {
             domString += `<img src='${projects[i].screenshot}' />`;
             domString += `<h3>${projects[i].description}</h3>`;
             domString += `<h3>${projects[i].technologiesUsed}</h3>`;
-            domString += `<h3>${projects[i].url}</h3>`;
+            domString += `<h3>${projects[i].url}</h3>`; 
             domString += `<h3>${projects[i].githubUrl}</h3>`;
             domString += `</div>`
         }
