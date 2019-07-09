@@ -9,7 +9,7 @@ function myFunction() {
   }
 
   const showBioDiv = () => {
-    console.error('showBiodiv');
+    console.error('showBodiv');
     document.getElementById('myDIV').classList.remove('hide');
     // document.getElementById('saveNewMovie').addEventListener('click', showBiodiv);
   };
