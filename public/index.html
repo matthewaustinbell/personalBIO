@@ -1,75 +1,129 @@
 <html lang="en">
 
-<!-- I am going for something like this https://cms-assets.tutsplus.com/uploads/users/1223/posts/28115/image/Decent.png -->
-
-<head>
-    <link rel='stylesheet' type+'text/css' href='main.css' <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Page Title -->
-    <title>Matt Bell</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-      <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">  
-</head>
+    <head>
+        <link rel='stylesheet' type+'text/css' href='main.css' <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Page Title -->
+        <title>Matt Bell</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+          crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+          <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">  
+    </head>
 
 <body>
-    <!-- Navigation -->
-    <nav>
-        <div id="image">
-            <img src="https://avatars2.githubusercontent.com/u/47642477?s=460&v=4" alt="Smiley face" height="42" width="42">
-        </div>
-        <div> 
-            <h2 id='myName'>Matt Bell</h2>
-        </div>
-        <!-- <ul id="navLinks">
-            <li><a id="navToTechnologies">Technologies</a></li>
-            <li><a id="navToProjects">Projects</a></li>
-        </ul> -->
-        
-    </nav>
-    <!-- End Navigation -->
 
-    <!-- Primary View -->
-    <div class="fullPage" id="bioPage">
-            <ul class="button-group">
-                    <li><button class="small button">Bio</button></li>
-                    <li><button class="small button">Projects</button></li>
-                    <li><button class="small button">Resume</button></li>
-                    <li><button class="small button">Contact</button></li>
-            </ul>
 
-        <a id="navToBio"></a>
+  <nav id="topNav" class="navbar navbar-expand-lg d-flex">
+  </nav>
+  <!-- End Navigation -->
 
-        <div class="bio1 hide" id="myDIV">
-            <h4>
-                Working for my self as a musician in nashville was aspirational to say the least,
-                but in under a year of moving to nashville it was a reality. Although it was a just paying the rent 
-                and the grocery bill reality, a reality none the less. I wanted to have impact. I remember telling someone, 
-                I bet it was great to have been a farmer, but what about the guy who invented the pitch fork? He seemingly changed so many peoples lives 
-                by scratching his own itch. One day, finding my self at a music and business conference some years later, I saw people that were creating things using technology 
-                that impacted so many. I want make something that helps people. Software is the why because software is the how. 
-            </h4>
-        </div>
-    <div class="fullPage" id="technologiesPage">
-        <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-        <p>JS AND BF languages</p>
+  <div class="fullPage" id="AboutPage">
+    <div class="container">
+      <div class="jumbotron text-center col-mid-6">
+            <div id="image">
+                <img src="https://avatars2.githubusercontent.com/u/47642477?s=460&v=4" alt="Smiley face" height="42" width="42">
+            </div>
+            <div> 
+                <h2 id='myName'>Matt Bell</h2>
+            </div>
+      </div>
     </div>
+  </div>
 
-    <div class="fullPage" id="projectsPage"></div>
-    <!-- End Primary View -->
 
-    <!-- Footer -->
-    <footer class="page-footer">
-        <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-    </footer>
-    <!-- End Footer -->
 
-  
-    <script src='main.js'></script>
+  <div class="bio1 hide" id="myDIV">
+        <h1>About Me</h1>
+
+    <h4>
+        Working for my self as a musician was aspirational to say the least,
+        but in under a year of moving to nashville it was a reality. Although it was a just paying the rent 
+        and the grocery bill reality, a reality none the less. I wanted to have impact. I remember telling someone, 
+        I bet it was great to have been a farmer, but what about the guy who invented the pitch fork? He seemingly changed so many peoples lives 
+        by scratching his own itch. One day, finding my self at a music and business conference some years later, I saw people that were creating things using technology 
+        that impacted so many. I want make something that helps people. Software is the why because software is the how. 
+    </h4>
+</div>
+
+
+
+  <div class="tech1 hide row" id="techDiv">
+        <h1>Technologies</h1>
+        <h4>Using HTML, CSS, and modular javascript has taught me that software is versitle and useful for everthing. NSS has given me strong foundation of learning to feel confident building useful projects. With a few React projects completed now I am also seeing how much fun it is to code in React as a javascript library as well! 
+        </h4>
+        <div class="image">
+          <image class="techpic"
+            src="data:image/png;base64,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"
+            alt="techno" />
+            <image class="techpic"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuA6DvBijvyIY45jxKmE6__dnk1QVgEg65cLJUG4f29aMn6Zro"
+            alt="techno" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<li class="contactLink row" class="ContactsPage">
+    <h1 id="con">ContactMe:</h1>
+    <div class="social1 hide row" id="socialDiv">
+    <ul style="list-style-type:none;" class="d-flex">
+
+      <li class="ContactsMe">
+        <a class="Contact1" href="mailto:matthewaustinbell@gmail.com"><i class="far fa-envelope social-button fa-4x"></i></a>
+      </li>
+      <li class="ContactsMe">
+        <a class="Contact1" href="https://www.linkedin.com/in/matthewaustinbell/"><i
+            class="fab fa-linkedin fa-4x" aria-hidden="true"></i></a>
+      </li>
+      <li class="ContactsMe">
+        <a class="Contact1" href="https://github.com/matthewaustinbell"><i class="fab fa-git social-button fa-4x"></i></a>
+      </li>
+    </ul>
+  </li>
+  </div>
+  <!-- End social media section -->
+
+  <h1 id="con">PROJECT LINKS:</h1>
+    <div class="project1 hide row" id="socialDiv">
+    <ul style="list-style-type:none;" class="d-flex">
+      <li class="ContactsMe">
+        <a class="Contact1" href="https://github.com/matthewaustinbell/react_doggie_day_care"><i class="fab fa-git social-button fa-4x"></i></a>
+        <p><a href="https://doggie-c3907.firebaseapp.com">Dog Day Care</a></p>
+      </li>
+      <li class="ContactsMe">
+        <a class="Contact1" href="https://github.com/matthewaustinbell/fishstore"><i class="fab fa-git social-button fa-4x"></i></a> 
+        <p><a href="https://fishstore-613fa.firebaseapp.com/">Fish Store</a></p>
+      </li>
+      <li class="ContactsMe">
+        <a class="Contact1" href="https://github.com/matthewaustinbell/movie"><i class="fab fa-git social-button fa-4x"></i></a>
+        <p><a href=" https://movie-c0ef6.firebaseapp.com">Movie Collection</a></p>
+      </li>
+      <li class="ContactsMe">
+        <a class="Contact1" href="https://github.com/matthewaustinbell/tamogachi3"><i class="fab fa-git social-button fa-4x"></i></a>
+        <p><a href="https://tamogachi-8e907.firebaseapp.com">Tamogochi</a></p>
+      </li>
+      <li class="ContactsMe">
+        <a class="Contact1" href="https://github.com/matthewaustinbell/Capstone-SetListMaker"><i class="fab fa-git social-button fa-4x"></i></a>
+        <p><a href="https://doggie-c3907.firebaseapp.com">Set List App</a></p>
+      </li>
+    </ul>
+  </li>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
 </body>
-
-</html>
